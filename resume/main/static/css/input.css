@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    overflow-x: hidden;
+}
+
+.special {
+    transition: color 0.3s, background-color 0.3s, transform 0.3s, opacity 0.3s;
+}
+
+.fadein {
+    opacity: 0;
+    transform: translateY(-100px);
+}

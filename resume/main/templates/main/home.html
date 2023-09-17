@@ -1,0 +1,59 @@
+
+{% extends 'main/base.html' %}
+
+{% block body %}
+  <div class="w-[100%] h-[100%] flex flex-col justify-center items-center">
+    <div class="fadein | w-[100%] mt-[150px] flex flex-col justify-center items-center">
+      <div class="relative p-0 grid place-items-center mb-[60px] sm:mb-[70px] md:mb-[90px] lg:mb-[100px] xl:mb-[120px]">
+        <img src="../../static/assets/pfp.png" alt="Profile Picture" class="w-[125px] sm:w-[150px] md:w-[175px] lg:w-[200px] xl:w-[225px]" />
+        <svg class='absolute z-[-1] translate-x-[-5px] w-[275px] sm:w-[325px] md:w-[375px] md:translate-x-[-10px] lg:w-[450px] xl:w-[500px]' id="visual" viewBox="0 0 900 900" xmlns="http://www.w3.org/2000/svg"
+        xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1">
+        <g transform="translate(490.68706744767854 442.69786262146596)">
+            <path id="blob1"
+                d="M244.9 -240.6C296.1 -193.7 301.5 -96.9 292.7 -8.8C283.9 79.2 260.7 158.4 209.6 212.1C158.4 265.7 79.2 293.9 -0.8 294.7C-80.8 295.5 -161.7 269 -236.7 215.4C-311.7 161.7 -380.8 80.8 -377.4 3.4C-374 -74 -298 -148 -223 -194.9C-148 -241.8 -74 -261.5 11.4 -272.9C96.9 -284.4 193.7 -287.5 244.9 -240.6"
+                fill="#F7770F"></path>
+        </g>
+        <g transform="translate(485.0656263216234 446.21885954780697)" style="visibility: hidden;">
+            <path id="blob2"
+                d="M180.1 -207.6C227.6 -132.6 256.3 -66.3 267.3 11C278.4 88.4 271.8 176.8 224.3 250.1C176.8 323.4 88.4 381.7 6.5 375.2C-75.4 368.8 -150.8 297.5 -218.2 224.2C-285.5 150.8 -344.8 75.4 -342 2.7C-339.3 -70 -274.7 -140 -207.3 -215C-140 -290 -70 -370 -1.9 -368.1C66.3 -366.3 132.6 -282.6 180.1 -207.6"
+                fill="#F7770F"></path>
+        </g>
+        <g transform="translate(496.96807218052413 457.1232398740424)" style="visibility: hidden;">
+            <path id="blob3"
+                d="M251.5 -273.5C299.3 -203.6 293.2 -101.8 275.4 -17.8C257.6 66.3 228.3 132.6 180.4 202.6C132.6 272.6 66.3 346.3 -9.9 356.2C-86 366 -172.1 312.1 -247.1 242.1C-322.1 172.1 -386 86 -382.3 3.8C-378.5 -78.5 -307 -157 -232 -226.8C-157 -296.6 -78.5 -357.8 11.7 -369.5C101.8 -381.2 203.6 -343.3 251.5 -273.5"
+                fill="#F7770F"></path>
+        </g>
+        <g transform="translate(439.3208342771534 421.46072044125737)" style="visibility: hidden;">
+            <path id="blob4"
+                d="M194.4 -192.6C255.9 -132.9 312.5 -66.5 315.9 3.4C319.3 73.3 269.6 146.6 208.1 221.4C146.6 296.3 73.3 372.6 -15.1 387.7C-103.5 402.8 -206.9 356.6 -253.8 281.8C-300.7 206.9 -291 103.5 -292.3 -1.3C-293.6 -106.1 -305.9 -212.1 -259 -271.8C-212.1 -331.5 -106.1 -344.7 -19.8 -324.9C66.5 -305.1 132.9 -252.3 194.4 -192.6"
+                fill="#F7770F"></path>
+        </g>
+    </svg>
+      </div>
+
+      <h1 style="transition: all .3s;" id="title1" class="font-marker text-4xl xs:text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl">Leon Stepczynski</h1>
+      <h4 style="transition: all .3s;" id="title2" class="text-lg mt-[10px] xs:text-xl sm:text-2xl sm:mt-[10px] md:text-3xl md:mt-[10px] lg:text-4xl lg:mt-[15px] xl:text-5xl xl:mt-[20px]">An <strong>Aspiring</strong> Front End Developer</h4>
+  </div>
+
+  <div class="fadein | flex flex-wrap place-content-center w-[240px] mt-[100px] xs:w-[280px] sm:w-[360px] md:w-[540px] lg:w-[750px] lg:mt-[200px] xl:w-[60vw]">
+    <img class="m-[4%] w-[60px] h-[60px] xs:w-[70px] xs:h-[70px] sm:w-[90px] sm:h-[90px] xl:w-[100px] xl:h-[100px] 2xl:w-[120px] 2xl:h-[120px]" src="../../static/assets/htmlIcon.png" alt="HTML" />
+    <img class="m-[4%] w-[60px] h-[60px] xs:w-[70px] xs:h-[70px] sm:w-[90px] sm:h-[90px] xl:w-[100px] xl:h-[100px] 2xl:w-[120px] 2xl:h-[120px]" src="../../static/assets/cssIcon.png" alt="CSS" />
+    <img class="m-[4%] w-[60px] h-[60px] xs:w-[70px] xs:h-[70px] sm:w-[90px] sm:h-[90px] xl:w-[100px] xl:h-[100px] 2xl:w-[120px] 2xl:h-[120px]" src="../../static/assets/tailWindIcon.png" alt="Tail Wind" />
+    <img class="m-[4%] w-[60px] h-[60px] xs:w-[70px] xs:h-[70px] sm:w-[90px] sm:h-[90px] xl:w-[100px] xl:h-[100px] 2xl:w-[120px] 2xl:h-[120px]" src="../../static/assets/javaScriptIcon.png" alt="JS" />
+    <img class="m-[4%] w-[60px] h-[60px] xs:w-[70px] xs:h-[70px] sm:w-[90px] sm:h-[90px] xl:w-[100px] xl:h-[100px] 2xl:w-[120px] 2xl:h-[120px]" src="../../static/assets/reactIcon.png" alt="React" />
+    <img class="m-[4%] w-[60px] h-[60px] xs:w-[70px] xs:h-[70px] sm:w-[90px] sm:h-[90px] xl:w-[100px] xl:h-[100px] 2xl:w-[120px] 2xl:h-[120px]" src="../../static/assets/pythonIcon.png" alt="Python" />
+    <img class="m-[4%] w-[60px] h-[60px] xs:w-[70px] xs:h-[70px] sm:w-[90px] sm:h-[90px] xl:w-[100px] xl:h-[100px] 2xl:w-[120px] 2xl:h-[120px]" src="../../static/assets/flaskIcon.png" alt="Flask" />
+    <img class="m-[4%] w-[60px] h-[60px] xs:w-[70px] xs:h-[70px] sm:w-[90px] sm:h-[90px] xl:w-[100px] xl:h-[100px] 2xl:w-[120px] 2xl:h-[120px]" src="../../static/assets/postgresqlIcon.png" alt="PostgreSQL" />
+    <img class="m-[4%] w-[60px] h-[60px] xs:w-[70px] xs:h-[70px] sm:w-[90px] sm:h-[90px] xl:w-[100px] xl:h-[100px] 2xl:w-[120px] 2xl:h-[120px]" src="../../static/assets/prismaIcon.png" alt="Prisma" />
+  </div>
+
+  <div class="fadein | mt-[100px] w-[275px] xs:w-[370px] sm:w-[550px] md:w-[650px] lg:w-[800px] xl:w-[1000px] sm:mt-[150px]">
+    <h4 class="font-bold text-2xl xs:text-3xl sm:text-4xl lg:text-5xl">About Me:</h4>
+    <p class="mt-[10px] xs:text-xl sm:text-2xl lg:text-3xl">Hi, My name is Leon Stepczynski, I've been born in Poland and I'm trying to become a Front End Developer.
+      I have been learning many usefull programmng languages, technologies, libraries and frameworks.
+      <strong> Html, CSS, Python, Java Script, React JS, PostgreSQL, and more.</strong>
+    </p>
+  </div>
+
+  <script src="../../static/js/home.js"></script>
+{% endblock %}
