@@ -7,6 +7,12 @@
     <link rel="stylesheet" type="text/css" href="{% static 'css/output.css' %}">
     <title>Document</title>
     <script src="https://cdn.jsdelivr.net/npm/kute.js@2.1.2/dist/kute.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
     {% block head %}{% endblock %}
 </head>
 <body>
@@ -15,11 +21,11 @@
     <ul class="flex justify-end mr-[20px] md:mr-[60px] md:space-x-4">
         <li class="grid items-center h-[60px] md:h-[80px] absolute top-0 left-[30px]"><h1 class='font-rowdies text-2xl text-black'>Leon Stepczynski</h1></li>
 
-        <li class='grid items-center h-[60px] md:h-[80px]'><a style="transition: all 0.3s;" id="about" class='text-2xl xs:mx-[20px] translate-y-[210%] md:translate-y-0 translate-x-[-20%] md:translate-x-0 md:opacity-100 select-none' href='/'>About me</a></li>
+        <li class='grid items-center h-[60px] md:h-[80px]'><a style="transition: all 0.3s;" id="about" class='font-oswald text-2xl md:text-[28px] xs:mx-[20px] translate-y-[210%] md:translate-y-0 translate-x-[-20%] md:translate-x-0 md:opacity-100 select-none' href='/'>About me</a></li>
 
-        <li class='grid items-center h-[60px] md:h-[80px]'><a style="transition: all 0.3s;" id="projects" class='font-rowdies text-2xl text-black translate-y-[210%] md:translate-y-0 translate-x-[-10%] md:translate-x-0 select-none' href='/projects/'>Projects</a></li>
+        <li class='grid items-center h-[60px] md:h-[80px]'><a style="transition: all 0.3s;" id="projects" class='font-oswald text-2xl md:text-[28px] text-black translate-y-[210%] md:translate-y-0 translate-x-[-10%] md:translate-x-0 select-none' href='/projects/'>Projects</a></li>
 
-        <li class='grid items-center h-[60px] md:h-[80px]'><a style="transition: all 0.3s;" id="resume" class='text-white font-bold bg-red-600 border-red-600 rounded-[6px] shadow-red py-[5px] px-[15px] md:py-[10px] translate-y-[200%] md:translate-y-0 translate-x-[10%] md:translate-x-0 select-none' href="/resume/">Resume</a></li>
+        <li class='grid items-center h-[60px] md:h-[80px]'><a style="transition: all 0.3s;" id="resume" class='text-white font-oswald text-xl bg-red-600 border-red-600 rounded-[6px] shadow-red py-[5px] px-[15px] md:py-[10px] translate-y-[180%] md:translate-y-0 translate-x-[10%] md:translate-x-0 select-none' href="/resume/">Resume</a></li>
 
         <li class="grid items-center md:hidden h-[50px] absolute top-0 right-[40px]"><h1 id="homeBtn" class="font-rowdies text-4xl text-black cursor-pointer select-none">≡</h1></li>
     
@@ -33,7 +39,7 @@
     <div class="grid place-items-center grid-cols-1 grid-rows-[60px,60px,60px] md:grid-cols-[250px,250px,250px] md:grid-rows-1 lg:grid-cols-[350px,350px,350px]">
       <a class="text-white" href="https://twitter.com/LStepczynski" target="_blank">Twitter</a>
       <a class="text-white" href="https://github.com/LStepczynski" target="_blank">Git Hub</a>
-      <p class="text-white" >leonstepczynski@gmail.com</p>
+      <a class="text-white" target="_blank" href="https://mail.google.com">leonstepczynski@gmail.com</a>
     </div>
 </div>
 

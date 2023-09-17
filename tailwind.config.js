@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./resume/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        amatic:['Amatic SC', 'sans'],
+        oswald:['Oswald', 'sans']
+      },
+    }
   },
   plugins: [],
 }
