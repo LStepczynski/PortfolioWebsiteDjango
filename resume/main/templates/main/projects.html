@@ -1,1 +1,57 @@
 {% extends 'main/base.html' %}
+
+{% block body %}
+<div class="w-[100%] | grid | place-items-center | mt-[100px]">
+    <div class="fadein | grid | items-center | w-[70%]">
+        <h1 class="font-oswald | text-[40px] sm:text-[60px] md:text-[70px] xl:text-[85px] | text-center">My Projects</h1>
+    </div>
+    <div class="fadein | grid | items-center | w-max">
+        <p class="fadein | text-center | text-[18px] sm:text-[22px] md:text-[28px] | w-[90vw] sm:w-[70vw] md:w-[60vw] xl:w-[35vw] | mt-[15px] ">All the things that are below are a part of my collection of projects.
+        I selected the most interesting and complex projects that I created to
+        be displayed. Please remember that the list will keep updating and the 
+        projects displayed might change in the future.
+        </p>
+    </div>
+
+
+    <div class="fadein | special | mt-[70px] md:mt-[130px] | p-[30px] | w-max">
+        <h4 class="text-[25px] sm:text-[35px] md:text-[40px] xl:text-[50px] | font-bold">Tetris:</h4>
+        <a href="https://github.com/LStepczynski/Tetris" class="text-[18px] sm:text-[22px] md:text-[28px] | fadein | font-semibold | underline">Tetris Github</a>
+        <img class="my-[15px] sm:my-[30px] w-[70vw] sm:w-[50vw] xl:w-[30vw]" src="../../static/assets/tetrisImg.png" alt="Tetris">
+        <p class="fadein | text-[18px] sm:text-[22px] md:text-[28px] | w-[90vw] sm:w-[70vw] md:w-[60vw] xl:w-[35vw] | mt-[15px] ">
+            Tetris is a timeless and iconic puzzle video game that challenges players to manipulate falling 
+            geometric shapes, known as Tetriminos, to create complete horizontal lines on the game board. 
+            With its simple yet addictive gameplay, Tetris has captivated generations of gamers since its 
+            inception in the 1980s, earning its place as a classic in the world of interactive entertainment.
+        </p>
+        
+    </div>
+
+    <div class="fadein | special | mt-[70px] md:mt-[130px] | p-[30px] | w-max">
+        <h4 class="text-[25px] sm:text-[35px] md:text-[40px] xl:text-[50px] | font-bold">Mine Sweeper:</h4>
+        <a href="https://github.com/LStepczynski/MineSweeper" class="text-[18px] sm:text-[22px] md:text-[28px] | fadein | font-semibold | underline">MineSweeper Github</a>
+        <img class="my-[15px] sm:my-[30px] w-[70vw] sm:w-[50vw] xl:w-[30vw]" src="../../static/assets/minesweeperImg.png" alt="Minesweeper">
+        <p class="fadein | text-[18px] sm:text-[22px] md:text-[28px] | w-[90vw] sm:w-[70vw] md:w-[60vw] xl:w-[35vw] | mt-[15px] ">
+            Minesweeper is an another classic computer puzzle game where players navigate through a grid, uncovering 
+            hidden squares while avoiding explosive mines. The objective is to reveal all safe squares without 
+            detonating any mines, relying on logic and deduction to strategically progress through the minefield. 
+            With its strategic depth and suspenseful gameplay, Minesweeper has remained a beloved and challenging 
+            pastime for computer enthusiasts since its introduction.
+        </p>
+        
+    </div>
+
+    <div class="fadein | special | mt-[70px] md:mt-[130px] | p-[30px] | w-max">
+        <h4 class="text-[25px] sm:text-[35px] md:text-[40px] xl:text-[50px] | font-bold">Productivity Pulse:</h4>
+        <a href="https://github.com/LStepczynski/ProductivityPulse" class="text-[18px] sm:text-[22px] md:text-[28px] | fadein | font-semibold | underline">Productivity Pulse Github</a>
+        <img class="my-[15px] sm:my-[30px] w-[70vw] sm:w-[50vw] xl:w-[30vw]" src="../../static/assets/ProductivityPulseImg.png" alt="ProductivityPulse">
+        <p class="fadein | text-[18px] sm:text-[22px] md:text-[28px] | w-[90vw] sm:w-[70vw] md:w-[60vw] xl:w-[35vw] | mt-[15px] ">
+            Productivity Pulse is a program that will monitor how much time the user spends on each window.
+            The data is collected and can be displayed to check how much time was spent on work compared to 
+            entertainment. Another advantage of Productivity Pulse is the ability to set a timer that will
+            remind when is the time for work and rest.
+        </p>
+        
+    </div>
+</div>
+{% endblock %}

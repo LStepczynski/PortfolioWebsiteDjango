@@ -39,7 +39,7 @@ window.addEventListener("resize", () => {
 const options = {
     root: null,
     rootMargin: '0px',
-    threshold: 0.7,
+    threshold: 0.3,
   };
   
   const intersectionCallback = (entries, observer) => {

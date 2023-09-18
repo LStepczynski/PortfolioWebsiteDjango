@@ -570,12 +570,29 @@ video {
   top: 71px;
 }
 
+.left-\[50\%\] {
+  left: 50%;
+}
+
+.left-\[30\%\] {
+  left: 30%;
+}
+
+.right-\[0px\] {
+  right: 0px;
+}
+
 .z-\[-1\] {
   z-index: -1;
 }
 
 .m-\[4\%\] {
   margin: 4%;
+}
+
+.my-\[15px\] {
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .mb-\[60px\] {
@@ -612,6 +629,14 @@ video {
 
 .mt-\[50px\] {
   margin-top: 50px;
+}
+
+.mt-\[15px\] {
+  margin-top: 15px;
+}
+
+.mt-\[70px\] {
+  margin-top: 70px;
 }
 
 .block {
@@ -687,6 +712,18 @@ video {
   width: max-content;
 }
 
+.w-\[70\%\] {
+  width: 70%;
+}
+
+.w-\[80\%\] {
+  width: 80%;
+}
+
+.w-\[70vw\] {
+  width: 70vw;
+}
+
 .translate-x-\[-10\%\] {
   --tw-translate-x: -10%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -724,6 +761,21 @@ video {
 
 .translate-y-\[180\%\] {
   --tw-translate-y: 180%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.translate-x-\[-50\%\] {
+  --tw-translate-x: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.translate-x-\[-150\%\] {
+  --tw-translate-x: -150%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.translate-x-\[-350\%\] {
+  --tw-translate-x: -350%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -785,6 +837,10 @@ video {
   justify-content: center;
 }
 
+.self-center {
+  align-self: center;
+}
+
 .rounded-\[6px\] {
   border-radius: 6px;
 }
@@ -817,6 +873,11 @@ video {
   background-color: rgb(203 213 225 / var(--tw-bg-opacity));
 }
 
+.bg-slate-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(100 116 139 / var(--tw-bg-opacity));
+}
+
 .p-0 {
   padding: 0px;
 }
@@ -833,6 +894,10 @@ video {
 .py-\[5px\] {
   padding-top: 5px;
   padding-bottom: 5px;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .font-amatic {
@@ -889,8 +954,32 @@ video {
   line-height: 1.75rem;
 }
 
+.text-\[40px\] {
+  font-size: 40px;
+}
+
+.text-\[15px\] {
+  font-size: 15px;
+}
+
+.text-\[13px\] {
+  font-size: 13px;
+}
+
+.text-\[14px\] {
+  font-size: 14px;
+}
+
+.text-\[10px\] {
+  font-size: 10px;
+}
+
 .font-bold {
   font-weight: 700;
+}
+
+.font-semibold {
+  font-weight: 600;
 }
 
 .text-black {
@@ -939,6 +1028,16 @@ body {
 }
 
 @media (min-width: 640px) {
+  .sm\:my-\[30px\] {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .sm\:my-\[300px\] {
+    margin-top: 300px;
+    margin-bottom: 300px;
+  }
+
   .sm\:mb-\[70px\] {
     margin-bottom: 70px;
   }
@@ -979,6 +1078,10 @@ body {
     width: 90px;
   }
 
+  .sm\:w-\[50vw\] {
+    width: 50vw;
+  }
+
   .sm\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
@@ -1009,6 +1112,14 @@ body {
   .sm\:text-\[50px\] {
     font-size: 50px;
   }
+
+  .sm\:text-\[60px\] {
+    font-size: 60px;
+  }
+
+  .sm\:text-\[20px\] {
+    font-size: 20px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -1030,6 +1141,10 @@ body {
 
   .md\:mt-\[70px\] {
     margin-top: 70px;
+  }
+
+  .md\:mt-\[130px\] {
+    margin-top: 130px;
   }
 
   .md\:hidden {
@@ -1058,6 +1173,10 @@ body {
 
   .md\:w-\[650px\] {
     width: 650px;
+  }
+
+  .md\:w-auto {
+    width: auto;
   }
 
   .md\:translate-x-0 {
@@ -1118,6 +1237,14 @@ body {
 
   .md\:text-\[55px\] {
     font-size: 55px;
+  }
+
+  .md\:text-\[70px\] {
+    font-size: 70px;
+  }
+
+  .md\:text-\[35px\] {
+    font-size: 35px;
   }
 
   .md\:opacity-100 {
@@ -1224,6 +1351,10 @@ body {
     width: 60vw;
   }
 
+  .xl\:w-\[30vw\] {
+    width: 30vw;
+  }
+
   .xl\:text-5xl {
     font-size: 3rem;
     line-height: 1;
@@ -1243,6 +1374,14 @@ body {
 
   .xl\:text-\[75px\] {
     font-size: 75px;
+  }
+
+  .xl\:text-\[85px\] {
+    font-size: 85px;
+  }
+
+  .xl\:text-\[40px\] {
+    font-size: 40px;
   }
 }
 
